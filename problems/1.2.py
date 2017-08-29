@@ -1,4 +1,4 @@
-# 1.1 Palindrome Tester
+# 1.2 Palindrome Tester
 
 def is_palindrome(input_string):
     if not input_string:
