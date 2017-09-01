@@ -16,3 +16,4 @@ def is_palindrome(input_string):
     result = input_string == reversed_string
 
     return result
+
