@@ -1,14 +1,20 @@
-# 2.15 Power of 4
+# 2.15 Better Fibonacci
 
-def is_power_of_four(number):
-    if number and not (number & (number - 1)):
-        count = 0
+def better_fibonacci(n):
+    if n < 2:
+        return n
 
-        while number > 1:
-            number >>= 1
-            count += 1
+    i = 1
+    second_to_last = 0
+    last = 1
+    current = None
 
-        return (count % 2) == 0
+    while i < n:
+        current = second_to_last + last
+        second_to_last = last
+        last = current
 
-    return False
+        i += 1
+
+    return current
 

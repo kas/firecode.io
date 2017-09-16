@@ -1,13 +1,23 @@
-# 2.12 Unique Chars in a String
+# 2.12 Max Gain
 
-def unique_chars_in_string(input_string):
-    dictionary = {}
+def max_gain(input_list):
+    if not input_list:
+        return 0
 
-    for character in input_string:
-        if character in dictionary:
-            return False
-        else:
-            dictionary[character] = 1
+    maximum_gain = 0
+    minimum = input_list[0]
 
-    return True
+    for i in range(0, len(input_list)):
+        if i == 0:
+            continue
+
+        current_gain = input_list[i] - minimum
+
+        if current_gain > maximum_gain:
+            maximum_gain = current_gain
+
+        if input_list[i] < minimum:
+            minimum = input_list[i]
+
+    return maximum_gain
 

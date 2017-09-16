@@ -1,23 +1,15 @@
-# 2.13 Max Gain
+# 2.13 Numbers and Ranges ...
 
-def max_gain(input_list):
-    if not input_list:
-        return 0
-
-    maximum_gain = 0
-    minimum = input_list[0]
+def find_range(input_list, input_number):
+    begin = None
+    end = None
 
     for i in range(0, len(input_list)):
-        if i == 0:
-            continue
+        if input_list[i] == input_number:
+            if not begin:
+                begin = i
 
-        current_gain = input_list[i] - minimum
+            end = i
 
-        if current_gain > maximum_gain:
-            maximum_gain = current_gain
-
-        if input_list[i] < minimum:
-            minimum = input_list[i]
-
-    return maximum_gain
+    return Range(begin, end)
 

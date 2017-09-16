@@ -1,4 +1,4 @@
-# 2.12 Unique Chars in a String
+# 2.11 Unique Chars in a String
 
 def unique_chars_in_string(input_string):
     character_set = set()

@@ -1,15 +1,14 @@
-# 2.14 Numbers and Ranges ...
+# 2.14 Power of 4
 
-def find_range(input_list, input_number):
-    begin = None
-    end = None
+def is_power_of_four(number):
+    if number and not (number & (number - 1)):
+        count = 0
 
-    for i in range(0, len(input_list)):
-        if input_list[i] == input_number:
-            if not begin:
-                begin = i
+        while number > 1:
+            number >>= 1
+            count += 1
 
-            end = i
+        return (count % 2) == 0
 
-    return Range(begin, end)
+    return False
 

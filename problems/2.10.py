@@ -1,26 +1,19 @@
-# 2.10 Merge Integer Ranges
+# 2.10 Insert a Node at the Front of a Linked List
 
-def merge_ranges(input_range_list):
-    output_range_list = []
+class SinglyLinkedList:
+    # constructor
+    def __init__(self):
+        self.head = None
 
-    lists = len(input_range_list)
+    # method for setting the head of the Linked List
+    def setHead(self, head):
+        self.head = head
 
-    begin = None
-    tracking = False
+    # method for inserting a new node at the start of a Linked List
+    def insert_at_front(self, data):
+        node = Node()
+        node.setData(data)
+        node.setNext(self.head)
 
-    for i in range(0, lists - 1):
-        if not tracking:
-            tracking = True
-            begin = input_range_list[i].lower_bound
-
-        if input_range_list[i].upper_bound < input_range_list[i + 1].lower_bound:
-            tracking = False
-            output_range_list.append([begin, input_range_list[i].upper_bound])
-
-    if tracking:
-        output_range_list.append([begin, input_range_list[lists - 1].upper_bound])
-    else:
-        output_range_list.append([input_range_list[lists - 1].lower_bound, input_range_list[lists - 1].upper_bound])
-
-    return output_range_list
+        self.setHead(node)
 
