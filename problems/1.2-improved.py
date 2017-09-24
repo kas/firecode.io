@@ -6,4 +6,3 @@ def is_palindrome(input_string):
     elif input_string[::-1] != input_string:
         return False
     return True
-

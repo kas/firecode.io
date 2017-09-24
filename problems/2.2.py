@@ -20,4 +20,3 @@ class SinglyLinkedList:
             curr = temp_next
 
         self.head = last
-

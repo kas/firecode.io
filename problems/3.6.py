@@ -13,4 +13,3 @@ def excel_column_number_to_name(column_number):
         index = (index / 26) - 1
 
     return output[::-1]
-

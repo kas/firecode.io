@@ -23,4 +23,3 @@ def merge_ranges(input_range_list):
         output_range_list.append([input_range_list[lists - 1].lower_bound, input_range_list[lists - 1].upper_bound])
 
     return output_range_list
-

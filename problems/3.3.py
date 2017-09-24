@@ -13,4 +13,3 @@ def binary_search(a_list, item):
         return binary_search(a_list[middle + 1:], item)
 
     return binary_search(a_list[:middle], item)
-

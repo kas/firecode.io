@@ -10,4 +10,3 @@ def is_palindrome(input_string):
         return True
 
     return False
-

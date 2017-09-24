@@ -36,4 +36,3 @@ def find_range(input_list, input_number):
         upper_bound = first - 1
 
     return Range(lower_bound, upper_bound)
-

@@ -14,4 +14,3 @@ def find_range(input_list, input_number):
             break
 
     return Range(begin, end)
-

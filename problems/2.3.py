@@ -12,4 +12,3 @@ class BinaryTree:
             return 1
 
         return self.number_of_leaves(root.left_child) + self.number_of_leaves(root.right_child)
-

@@ -14,4 +14,3 @@ def reverse_string(a_string):
         another_string += str(a_list.pop())
 
     return another_string
-

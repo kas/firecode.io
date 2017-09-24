@@ -9,7 +9,7 @@ def duplicate_items(list_numbers):
             dictionary[str(number)] += 1
         else:
             dictionary[str(number)] = 1
-    
+
     for number, count in dictionary.items():
         if count > 1:
             duplicates.append(number)
@@ -20,4 +20,3 @@ def duplicate_items(list_numbers):
 
 duplicate_list = [1, 1, 2, 3, 4, 4]
 print(duplicate_items(duplicate_list))
-

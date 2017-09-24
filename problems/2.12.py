@@ -20,4 +20,3 @@ def max_gain(input_list):
             minimum = input_list[i]
 
     return maximum_gain
-

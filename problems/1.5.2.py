@@ -7,4 +7,3 @@ def find_missing_number(list_numbers):
         list_sum += number
 
     return 55 - list_sum
-

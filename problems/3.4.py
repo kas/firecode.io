@@ -15,4 +15,3 @@ def make_palindrome(input):
     input += input[::-1][1:]
 
     return input
-

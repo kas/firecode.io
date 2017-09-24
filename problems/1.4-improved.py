@@ -5,4 +5,3 @@ def dec_to_bin(number):
         return str(number)
 
     return dec_to_bin(number / 2) + str(number % 2)
-

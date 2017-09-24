@@ -10,4 +10,3 @@ def unique_chars_in_string(input_string):
             character_set.add(character)
 
     return True
-

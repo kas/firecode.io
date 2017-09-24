@@ -11,4 +11,3 @@ def is_power_of_four(number):
         return (count % 2) == 0
 
     return False
-

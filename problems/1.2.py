@@ -3,7 +3,7 @@
 def is_palindrome(input_string):
     if not input_string:
         return True
-    
+
     a_list = []
     reversed_string = ''
 
@@ -12,8 +12,7 @@ def is_palindrome(input_string):
 
     while a_list:
         reversed_string += str(a_list.pop())
-    
+
     result = input_string == reversed_string
 
     return result
-

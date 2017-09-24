@@ -14,4 +14,3 @@ def flip_horizontal_axis(matrix):
             temp = matrix[row][column]
             matrix[row][column] = matrix[row + row_add][column]
             matrix[row + row_add][column] = temp
-

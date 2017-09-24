@@ -13,4 +13,3 @@ def transpose_matrix(matrix):
             temp = matrix[column][row]
             matrix[column][row] = matrix[row][column]
             matrix[row][column] = temp
-

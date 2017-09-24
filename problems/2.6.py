@@ -27,4 +27,3 @@ class BinaryTree:
 
     def get_root_val(self):
         return self.data
-

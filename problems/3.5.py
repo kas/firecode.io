@@ -12,4 +12,3 @@ class BinaryTree:
             root = root.left_child
 
         return TreeNode(root.data)
-

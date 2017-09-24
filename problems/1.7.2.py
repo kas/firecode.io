@@ -14,4 +14,3 @@ def flip_vertical_axis(matrix):
             temp = matrix[height][column + add]
             matrix[height][column + add] = matrix[height][column]
             matrix[height][column] = temp
-

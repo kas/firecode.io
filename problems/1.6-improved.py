@@ -10,4 +10,3 @@ def duplicate_items(list_numbers):
             duplicates.append(list_numbers[i])
 
     return duplicates
-

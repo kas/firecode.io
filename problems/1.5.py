@@ -9,4 +9,3 @@ def find_missing_number(list_numbers):
 
     for key in dictionary:
         return int(key)
-

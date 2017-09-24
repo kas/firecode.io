@@ -29,4 +29,3 @@ class BinaryTree:
         height.h = max(left_height.h, right_height.h) + 1
 
         return max(left_height.h + right_height.h + 1, max(ldiameter, rdiameter))
-

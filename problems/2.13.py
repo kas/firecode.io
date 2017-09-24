@@ -12,4 +12,3 @@ def find_range(input_list, input_number):
             end = i
 
     return Range(begin, end)
-

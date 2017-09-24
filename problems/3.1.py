@@ -17,4 +17,3 @@ def max_profit(prices):
         profit += current_profit
 
     return profit
-

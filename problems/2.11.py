@@ -10,4 +10,3 @@ def unique_chars_in_string(input_string):
             dictionary[character] = 1
 
     return True
-

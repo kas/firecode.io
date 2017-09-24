@@ -27,4 +27,3 @@ def dec_to_bin(number):
         binary_representation += str(remainders_stack.pop())
 
     return binary_representation
-

@@ -17,4 +17,3 @@ def better_fibonacci(n):
         i += 1
 
     return current
-

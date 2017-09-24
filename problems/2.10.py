@@ -16,4 +16,3 @@ class SinglyLinkedList:
         node.setNext(self.head)
 
         self.setHead(node)
-

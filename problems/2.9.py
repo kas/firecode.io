@@ -23,4 +23,3 @@ class SinglyLinkedList:
                 curr = curr.getNext()
 
             curr.setNext(new_node)
-

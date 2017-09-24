@@ -24,4 +24,3 @@ def merge_ranges(input_range_list):
         output_list.append(input_range_list[lists - 1])
 
     return output_list
-

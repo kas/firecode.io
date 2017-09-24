@@ -9,4 +9,3 @@ def bubble_sort(a_list):
                 a_list[j + 1] = temp
 
     return a_list
-

@@ -31,4 +31,3 @@ def flip_vertical_axis(matrix):
             new_row.append(matrix[row][column])
 
         matrix[row] = new_row
-
